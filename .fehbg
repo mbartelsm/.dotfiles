@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/corso/Pictures/wallpapers/bubble-nebula_fixed.jpg' 
