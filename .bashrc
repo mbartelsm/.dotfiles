@@ -18,7 +18,6 @@ colors() {
 		for bgc in {40..47}; do
 			fgc=${fgc#37} # white
 			bgc=${bgc#40} # black
-
 			vals="${fgc:+$fgc;}${bgc}"
 			vals=${vals%%;}
 
@@ -138,9 +137,13 @@ ex ()
   fi
 }
 
+
+export PATH=~/opt/scripts:$PATH
+
 # Custom aliases
 
 alias mygcc="gcc -Wall -pedantic -std=c99 -lm "
 alias update="source ~/.bashrc
 xrdb -merge ~/.Xresources"
 alias config='/usr/bin/git --git-dir=/home/corso/.dotfilesrepo/ --work-tree=/home/corso'
+unzip () { 7z x -o"./$@" "$@"; }
