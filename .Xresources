@@ -6,8 +6,8 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*foreground:                 #c9c0c2
-XTerm*background:                 #131218
+XTerm*foreground:                 #ebdbb2
+XTerm*background:                 #1d2021
 XTerm*pointerColor:      #1ABB9B
 XTerm*faceName:          Fixed
 XTerm*faceSize:          11
@@ -16,74 +16,45 @@ XTerm*selectToClipboard: true
 
 
 !! foreground / background
-*background:                      #131218
-*foreground:                      #c9c0c2
-URxvt*cursorColor:                #c9c0c2
-XTerm*cursorColor:                #c9c0c2
-UXTerm*cursorColor:               #c9c0c2
-URxvt*borderColor:                [100]#131218
+*background:                      #1d2021
+*foreground:                      #ebdbb2
+URxvt*cursorColor:                #ebdbb2
+XTerm*cursorColor:                #ebdbb2
+UXTerm*cursorColor:               #ebdbb2
+URxvt*borderColor:                [100]#1d2021
 
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #1ABB9B
+*cursorColor:                     #ebdbb2
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
-!! black dark
-*.color0: #131218
-*color0:  #131218
-*.color8: #3a3939
-*color8:  #3a3939
-
-!! red dark
-*.color5: #C17E8B
-*color5:  #C17E8B
-*.color13: #e18699
-*color13:  #e18699
-
-!! green dark
-*.color1: #568975
-*color1:  #568975
-*.color9: #41aa81
-*color9:  #41aa81
-
-!! yellow dark
-*.color2: #BD9B69
-*color2:  #BD9B69
-*.color10: #e5b25e
-*color10:  #e5b25e
-
-!! blue dark
-*.color3: #5C6388
-*color3:  #5C6388
-*.color11: #5e6caf
-*color11:  #5e6caf
-
-!! magenta dark
-*.color4: #966D8C
-*color4:  #966D8C
-*.color12: #b272a2
-*color12:  #b272a2
-
-!! cyan dark
-*.color6: #3D99A7
-*color6:  #3D99A7
-*.color14: #3db7c8
-*color14:  #3db7c8
-
-!! white dark
-*.color7: #c9c0c2
-*color7:  #c9c0c2
-*.color15: #dcd3d6
-*color15:  #dcd3d6
+!*.color0:  #282828
+!*.color0:  #32302f
+*.color0:  #1d2021
+*.color1:  #928374
+*.color2:  #cc241d
+*.color3:  #fb4934
+*.color4:  #98971a
+*.color5:  #b8bb26
+*.color6:  #d79921
+*.color7:  #fabd2f
+*.color8:  #458588
+*.color9:  #83a598
+*.color10: #b16286
+*.color11: #d3869b
+*.color12: #689d6a
+*.color13: #8ec07c
+*.color14: #a89984
+*.color15: #ebdbb2
 
 ! Black color that will not be affected by bold highlighting.
-*.color66: #131218
-*color66:  #131218
+*.color66: #1d2021
+*color66:  #1d2021
 
 ! Xclock colors.
-XClock*foreground: #c9c0c2
-XClock*background: #131218
+XClock*foreground: #ebdbb2
+XClock*background: #1d2021
 XClock*majorColor:  rgba:c9/c0/c2/ff
 XClock*minorColor:  rgba:c9/c0/c2/ff
 XClock*hourColor:   rgba:c9/c0/c2/ff
@@ -102,8 +73,8 @@ URxvt.bold.font: xft:FuraMono Nerd Font Mono Bold:pixelsize=12
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt*foreground:                 #c9c0c2
-URxvt*background:                 [50]#131218
+URxvt*foreground:                 #ebdbb2
+URxvt*background:                 [50]#1d2021
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
