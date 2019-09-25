@@ -31,22 +31,22 @@ URxvt*borderColor:                [100]#1d2021
 
 !*.color0:  #282828
 !*.color0:  #32302f
-*.color0:  #1d2021
-*.color1:  #928374
-*.color2:  #cc241d
-*.color3:  #fb4934
-*.color4:  #98971a
-*.color5:  #b8bb26
-*.color6:  #d79921
-*.color7:  #fabd2f
-*.color8:  #458588
-*.color9:  #83a598
-*.color10: #b16286
-*.color11: #d3869b
-*.color12: #689d6a
-*.color13: #8ec07c
-*.color14: #a89984
-*.color15: #ebdbb2
+*.color0:  #323232
+*.color1:  #d25252
+*.color2:  #7fe173
+*.color3:  #ffc66d
+*.color4:  #4099ff
+*.color5:  #f680ff
+*.color6:  #bed6ff
+*.color7:  #eeeeec
+*.color8:  #535353
+*.color9:  #f07070
+*.color10: #9dff91
+*.color11: #ffe48b
+*.color12: #5eb7f7
+*.color13: #ff9dff
+*.color14: #dcf4ff
+*.color15: #ffffff
 
 ! Black color that will not be affected by bold highlighting.
 *.color66: #1d2021
@@ -83,7 +83,7 @@ URxvt*saveLines:                  5000
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 URxvt*inheritPixmap:            true
 URxvt*transparent:              true
-URxvt*shading:                  60
+URxvt*shading:                  70
 URxvt*blurRadius:               20
 
 ! Normal copy-paste keybindings without perls

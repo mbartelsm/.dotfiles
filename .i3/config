@@ -253,7 +253,7 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 1
+default_border none
 default_floating_border normal
 
 # Hide borders
@@ -266,7 +266,7 @@ bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font xft:URWGothic-Book 11
+font xft:FuraMono Nerd Font Mono 11
 
 
 
@@ -396,7 +396,7 @@ bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+  client.focused          $term_color12 $term_color12 #2F3D44 $term_color12
   client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
   client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
   client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
@@ -410,7 +410,7 @@ bindsym $mod+m bar mode toggle
 
 # Set inner/outer gaps
 gaps inner 15
-gaps outer 5
+gaps outer 10
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
